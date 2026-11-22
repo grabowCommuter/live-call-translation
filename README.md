@@ -1,157 +1,169 @@
-# Live-Uebersetzung von Telefonaten
+# Live Phone Call Translation
 
-Deutschsprachige Orientierung zu uebersetzten Anrufen: Geraetefunktionen,
-separate Apps und Internetgespraeche per Link.
+A comparison of built-in phone features, standalone apps, and translated
+internet calls between two people.
 
-**Recherche-Stand: 22. November 2026.** Grundlage sind oeffentliche
-Herstellerangaben, keine eigenen Testanrufe. Verfuegbarkeit, Preise,
-Sprachen und Menuebezeichnungen koennen sich aendern.
+**Research date: November 22, 2026.** This guide is based on public vendor
+information, not hands-on call tests. Availability, pricing, languages, and
+menu names may change.
 
-## Vergleich auf einen Blick
+## Comparison at a Glance
 
-Alle Funktionsangaben in dieser Tabelle sind Angaben der jeweiligen Anbieter.
-Die Quellenkennungen fuehren zum [Quellenverzeichnis](QUELLEN.md).
+All feature descriptions below are vendor claims. Reference IDs point to the
+[source list](SOURCES.md).
 
-| App / Funktion | Geraete | Normale Telefonnummer anrufen | Internet- / Messenger-Anrufe | Verarbeitung | Wichtigste Grenze / Quelle |
+| App / feature | Devices | Calls to regular phone numbers | Internet / messenger calls | Processing | Key limitation / source |
 | --- | --- | --- | --- | --- | --- |
-| **Tookoo** | iPhone, Android; eingeladene Person auch im Browser | Nicht belegt | Eigener Gespraechsraum per Link / QR-Code, beidseitige Sprachausgabe | Cloud, Google Gemini | Internet noetig; keine App und kein Konto fuer eingeladene Person erforderlich. [T1, T2, T3] |
-| **Apple Live-Uebersetzung** | Apple-Intelligence-faehiges iPhone | Ja, ueber die Telefon-App; beidseitige Sprachausgabe | FaceTime: uebersetzte Untertitel | Lokal auf dem Geraet | Nicht jedes iPhone; FaceTime-Untertitel sind keine gesprochene Telefonuebersetzung. [A1, A2, A3] |
-| **Samsung Live-Uebersetzung** | Kompatibles Galaxy | Ja, ueber Samsung Telefon | Unterstuetzte Apps, unter anderem WhatsApp und Signal | Hier nicht separat geprueft | Modell, Sprachpaar und angebotene Messenger am Geraet pruefen. [S1] |
-| **Google Live Translate / Voice Translate** | Nur Pixel 10 und neuere Generationen, einschliesslich Fold | Ja, ueber die Telefonfunktion | Keine pauschale Messenger-Unterstuetzung zugesagt | Lokal auf dem Geraet | Nicht Pixel 9 oder aelter; Englisch muss eine Seite des Sprachpaars sein. [G1, G2] |
-| **AI Phone** | iPhone, Android | Ja, aus der App zu Mobilfunk / Festnetz | Zusaetzlicher Video-/Link-Modus beworben | Fuer Telefonie hier nicht vollstaendig geprueft | Eingehend laut Anbieter mit AI-Phone-Zweitnummer; Kosten separat pruefen. [P1, P2] |
+| **[Tookoo](https://tookoo.drawla.app/)** | iPhone, Android; invited participant can also use a browser | Not established by the reviewed sources | Own call room via link / QR code, with two-way translated speech | Cloud, Google Gemini | Internet required; invited participant needs neither an app nor an account. [T1, T2, T3] |
+| **[Apple Live Translation](https://support.apple.com/de-de/123720)** | Apple Intelligence-compatible iPhone | Yes, through the Phone app, with two-way translated speech | FaceTime: translated captions | On-device | Not every iPhone; FaceTime captions are not the same as spoken call translation. [A1, A2, A3] |
+| **[Samsung Live Translate](https://www.samsung.com/de/support/mobile-devices/verwendung-von-live-ubersetzung-fur-anrufe-mit-dem-galaxy-s24/)** | Compatible Galaxy device | Yes, through Samsung Phone | Supported apps, including WhatsApp and Signal | Not separately assessed here | Check device, language pair, and supported messengers on the actual device. [S1] |
+| **[Google Live Translate / Voice Translate](https://support.google.com/pixelphone/answer/16477051?hl=en)** | Pixel 10 and later generations only, including Fold | Yes, through the phone calling feature | No blanket claim of messenger support | On-device | Not Pixel 9 or older; English must be one side of the language pair. [G1, G2] |
+| **[AI Phone](https://www.aiphone.ai/)** | iPhone, Android | Yes, calls placed from the app to mobile / landline numbers | Additional video / invitation-link mode advertised | Not fully assessed here for phone calls | Incoming translation requires an AI Phone second number, according to the vendor; check costs separately. [P1, P2] |
 
-## Zuerst die Anrufart klaeren
+## Understand the Call Type
 
-- **Telefonnummer:** Eine Mobilfunk- oder Festnetznummer wird angerufen.
-- **Messenger-Anruf:** Das Gespraech findet beispielsweise in Signal oder
-  WhatsApp statt. Eine Telefon-App-Integration ist dafuer kein Beleg.
-- **Internetgespraech per Link:** Beide Personen betreten einen Raum.
-  Das ist nicht automatisch eine Verbindung zu einer Telefonnummer.
+- **Phone number:** A mobile or landline number is dialed.
+- **Messenger call:** The conversation takes place in an app such as Signal or
+  WhatsApp. Phone app integration alone does not establish messenger support.
+- **Internet call via link:** Both participants join a room. This does not
+  automatically mean the service can call a regular phone number.
 
-Ein Konversationsmodus fuer zwei Personen am selben Handy oder reine
-Live-Untertitel sind kein Nachweis fuer beidseitig gesprochene
-Uebersetzung eines Telefonats.
+A conversation mode for two people sharing one phone, or live captions alone,
+does not establish two-way spoken translation during a phone call.
 
-## Details und Einrichtung
+## Details and Setup
 
 ### Apple
 
-Im laufenden Telefonat: **Mehr > Live-Uebersetzung > Sprachen waehlen >
-Uebersetzung starten**. Beide Seiten erhalten einen Hinweis. Sprachpakete
-vorher laden; Apple beschreibt die Verarbeitung als lokal auf dem Geraet. [A1]
+Link: [Official setup guide, in German](https://support.apple.com/de-de/123720).
 
-Apple Intelligence unterstuetzen unter anderem iPhone 15 Pro / Pro Max
-und iPhone-16-Modelle oder neuer. Eine passende iOS-Version,
-aktiviertes Apple Intelligence und Sprach-/Regionsverfuegbarkeit sind
-zusaetzlich zu pruefen; Hardware-Kompatibilitaet allein reicht nicht. [A2, A3]
+During a phone call, select **More > Live Translation**, choose the languages,
+and start translation. Both participants receive a notice. Download language
+packs beforehand; Apple describes processing as on-device. [A1]
+
+Supported hardware includes iPhone 15 Pro / Pro Max and iPhone 16 models or
+later. Also check the required iOS version, enabled Apple Intelligence, and
+language / region availability. Compatible hardware alone is not enough. [A2, A3]
 
 ### Samsung
 
-Unter **Einstellungen > Galaxy AI** die Anrufuebersetzung einrichten und
-Sprachpakete laden. Im Telefonat **Anrufassistenz > Live-Uebersetzung**
-waehlen. Fuer Messenger unter **Anrufassistenz > Live-Uebersetzung in
-anderen Apps** die tatsaechlich angebotenen Apps kontrollieren. [S1]
+Link: [Official setup guide, in German](https://www.samsung.com/de/support/mobile-devices/verwendung-von-live-ubersetzung-fur-anrufe-mit-dem-galaxy-s24/).
 
-Die Quelle nennt unter anderem WhatsApp, Signal und Google Meet.
-Eine vollstaendige aktuelle Smartphone-Modellliste und eine verlaesslich
-aktuelle Sprachliste werden hier bewusst nicht zugesagt: Die Sprachliste
-im Supportartikel traegt noch den Teilstand November 2024. [S1]
+Configure call translation under **Settings > Galaxy AI** and download the
+language packs. During a call, select **Call assist > Live translate**.
+For messengers, check the apps actually listed under **Call assist >
+Live translate in other apps**. Menu names may vary. [S1]
+
+The source lists WhatsApp, Signal, and Google Meet, among others. This guide
+does not promise a complete current smartphone compatibility list or language
+list: the language list embedded in that support article is still dated
+November 2024. [S1]
 
 ### Google Pixel
 
-**Nur Pixel 10 und neuere Modellgenerationen, einschliesslich Fold.**
-Pixel 9 und aeltere Modelle sind fuer diese Telefonuebersetzung laut Google
-nicht unterstuetzt. Gemeint ist die Modellgeneration, nicht die Displaygroesse.
-Andere Pixel-Uebersetzungsfunktionen sind davon zu unterscheiden. [G1, G2]
+Link: [Official setup guide](https://support.google.com/pixelphone/answer/16477051?hl=en).
 
-Auf Pixel 10 heisst die Funktion **Voice Translate**; auf neueren Modellen
-**Live Translate**. Im Anruf **Call Assist > Live translate / Voice translate**
-waehlen. Sprachmodelle gegebenenfalls vorher herunterladen. [G1]
+**Pixel 10 and later model generations only, including Fold.**
+According to Google, Pixel 9 and older models are not supported for this call
+translation feature. "Later" refers to the model generation, not screen size.
+Other Pixel translation features must be considered separately. [G1, G2]
 
-Genannt sind Englisch in Kombination mit Deutsch, Franzoesisch, Hindi,
-Indonesisch, Italienisch, Japanisch, Portugiesisch, Russisch, Spanisch
-oder Schwedisch. Auf Pixel 10a gelten Einschraenkungen fuer einzelne Sprachen.
-**Deutsch zu Spanisch ist damit nicht belegt.**
-Google beschreibt lokale Verarbeitung ohne Speicherung von Anrufaudio oder
-Transkripten und ohne Uebermittlung der Gespraeche an Google-Server. [G1]
-Laender- und App-Verfuegbarkeit ebenfalls pruefen. [G2]
+The feature is called **Voice Translate** on Pixel 10 and **Live Translate**
+on later models. During a call, select **Call Assist > Live translate /
+Voice translate**. Download any required language models beforehand. [G1]
+
+Google lists English paired with German, French, Hindi, Indonesian, Italian,
+Japanese, Portuguese, Russian, Spanish, or Swedish. Pixel 10a has restrictions
+for some languages. **German-to-Spanish support is not established by this
+list.** Google describes local processing without storing call audio or
+transcripts, and without sending conversations to Google servers. [G1]
+Also check country and app availability. [G2]
 
 ### Tookoo
 
-**Tookoo ist ein eigenstaendiger Dienst fuer live uebersetzte
-Internetgespraeche zwischen zwei Personen.** Beide sprechen ihre eigene Sprache
-und hoeren die Uebersetzung. Angeboten werden Apps fuer iPhone und Android;
-die eingeladene Person kann ohne App-Installation und ohne Konto im Browser
-teilnehmen. [T1, T3]
+Links: [tookoo.drawla.app](https://tookoo.drawla.app/) |
+[Google Play](https://play.google.com/store/apps/details?id=com.grabow.tookoo) |
+[App Store](https://apps.apple.com/us/app/tookoo/id6794402487) |
+[Privacy policy](https://tookoo.drawla.app/privacy.en.html).
 
-So laeuft ein Gespraech ab: [T1]
+**Tookoo is a standalone service for live-translated internet calls between
+two people.** Each person speaks their own language and hears the translation.
+Apps are offered for iPhone and Android; the invited participant can join in a
+browser without installing an app or creating an account. [T1, T3]
 
-1. Sprache waehlen und einen Tookoo-Raum erstellen.
-2. Einladungslink oder QR-Code an die andere Person weitergeben.
-3. Nach deren Beitritt sprechen; beide Seiten erhalten die Uebersetzung.
+Call workflow: [T1]
 
-**Push-to-Talk** verwendet eine Sprechtaste; **Talk-to-Talk** ermoeglicht
-freies Sprechen. Daneben gibt es einen **Listen-Modus** fuer Sprache in der
-Umgebung, also einen anderen Anwendungsfall als ein Gespraech zwischen zwei
-Geraeten. Internet und Mikrofonzugriff sind erforderlich. [T1, T3]
+1. Choose a language and create a Tookoo room.
+2. Share the invitation link or QR code with the other person.
+3. Once they join, start speaking; both sides receive translated speech.
 
-**Einordnung:** Als Option fuer Familie, Bekannte oder andere Kontakte testen,
-denen sich ein Link schicken laesst. Eine Anwahl beliebiger Mobilfunk- oder
-Festnetznummern ist in den ausgewerteten Quellen nicht belegt. Tookoo ist
-deshalb hier nicht mit einer Erweiterung der normalen Telefon-App gleichgesetzt.
+**Push-to-Talk** uses a talk button; **Talk-to-Talk** allows hands-free speech.
+A separate **Listen mode** translates speech around you, which is a different
+use case from a call between two devices. Internet and microphone access are
+required. [T1, T3]
 
-Laut Datenschutzseite wird Audio fuer die Uebersetzung an Google Gemini
-uebertragen; Verarbeitung ausserhalb der EU ist moeglich. Der Betreiber
-erklaert, Audio und Transkripte nicht dauerhaft zu speichern. Das ist keine
-Aussage, dass Audio das Geraet nicht verlaesst. [T2]
+**Our assessment:** Consider testing it with family, friends, or other contacts
+who can receive a link. Calling arbitrary mobile or landline numbers is not
+established by the reviewed sources. This guide therefore does not equate
+Tookoo with an extension of the standard Phone app.
 
-Der ausgewertete App-Store-Eintrag nennt kostenlose, werbefinanzierte Nutzung,
-79 Sprachen und eine Grenze von 60 Minuten pro Gespraech mit erneuter
-Verbindungsmoeglichkeit. Fuer andere Plattformen separat pruefen. [T3]
+The privacy policy says audio is sent to Google Gemini for translation;
+processing outside the EU is possible. The operator states that audio and
+transcripts are not stored permanently. This does not mean audio stays on
+the device. [T2]
+
+The reviewed App Store listing describes free, ad-supported use, 79 languages,
+and a 60-minute limit per conversation with an option to reconnect. Check
+other platforms separately. [T3]
 
 ### AI Phone
 
-Laut Anbieter benoetigt die angerufene Person keine App und nimmt einen
-normalen Anruf entgegen. Beworben werden beidseitige Sprachausgabe,
-Untertitel, Transkripte und Zusammenfassungen. [P1]
+Links: [Website](https://www.aiphone.ai/) |
+[Phone call translation](https://www.aiphone.ai/en/feature/phone-call-translator/index) |
+[Video calls](https://www.aiphone.ai/en/feature/video-call-translator/index).
 
-Die zusaetzlich beworbene Messenger-/Video-Uebersetzung verwendet unter
-anderem Einladungslinks. Daraus folgt keine pauschale Integration in jeden
-bestehenden WhatsApp- oder FaceTime-Anruf. [P2]
+According to the vendor, the recipient does not need an app and answers a
+regular phone call. Advertised features include two-way translated speech,
+captions, transcripts, and summaries. [P1]
 
-**Noch offen:** aktueller Gesamtpreis, Minuten-/Laenderkosten, Verfuegbarkeit
-der Zweitnummer im eigenen Land sowie Verarbeitung und Aufbewahrung fuer den
-konkret gebuchten Telefoniedienst. Keine pauschale Kostenlos- oder
-Datenschutzzusage in dieser Uebersicht.
+The additionally advertised messenger / video translation uses invitation
+links, among other methods. This does not establish automatic integration
+with every existing WhatsApp or FaceTime call. [P2]
 
-## Entscheidungshilfe
+**Not yet verified:** current total price, per-minute / destination charges,
+second-number availability in the user's country, and processing / retention
+for the specific phone service purchased. This guide makes no blanket claim
+that the service is free or meets particular privacy requirements.
 
-Diese Vorschlaege sind eine Einordnung, kein gemessener Qualitaetsvergleich:
+## Choosing an Option
 
-1. **Vorhandenes kompatibles Geraet:** Zuerst dessen integrierte
-   Telefonuebersetzung fuer das benoetigte Sprachpaar ausprobieren.
-2. **Bekannte Person, Link moeglich:** Tookoo als Internetgespraech testen.
-3. **Festnetznummer, keine passende Geraetefunktion:** AI Phone als
-   gesonderten Telefoniedienst nach Kosten- und Datenschutzpruefung testen.
-4. **Messenger zwingend:** Exakte Kombination aus Geraet, Messenger,
-   Betriebssystem und Sprachpaar pruefen.
+**[Try Tookoo for free, without signing up.](https://tookoo.drawla.app/)** [T1, T2, T3]
 
-## Kosten, Vertraulichkeit und Qualitaet
+These suggestions are an assessment, not a measured quality ranking:
 
-- Vor Beginn Abo, Minuten, Roaming, Datenvolumen und Zielregion kontrollieren.
-  Es wurden keine kostenpflichtigen Angebote gebucht.
-- Gespraechspartner vorab informieren und klaeren, ob Uebersetzung,
-  Cloud-Verarbeitung oder gespeicherte Transkripte akzeptabel sind.
-- Fuer vertrauliche Inhalte die konkrete Datenverarbeitung pruefen.
-  Eine Datenschutzbeschreibung ist keine unabhaengige Pruefung.
-- Namen, Betraege, Termine und Verneinungen ausdruecklich bestaetigen lassen.
-  Fuer wichtige Entscheidungen eine zusaetzliche menschliche Pruefung vorsehen.
+1. **Already own compatible hardware:** First test its built-in call
+   translation with the required language pair.
+2. **Calling someone who can open a link:** Try Tookoo as an internet call.
+3. **Need a landline number without compatible built-in translation:**
+   Consider testing AI Phone after checking costs and privacy.
+4. **Must use a messenger:** Verify the exact combination of device,
+   messenger, operating system, and language pair.
 
-## Eigene Tests und Pflege
+## Costs, Privacy, and Quality
 
-Mit [TESTPROTOKOLL.md](TESTPROTOKOLL.md) lassen sich gleiche Testsaetze,
-Kosten und Sprachpaare vergleichbar dokumentieren. Aktuell sind **keine**
-eigenen Ergebnisse eingetragen.
+- Check subscriptions, minutes, roaming, data usage, and destination before
+  starting. No paid services were purchased for this guide.
+- Inform the other participant and establish whether translation,
+  cloud processing, or saved transcripts are acceptable.
+- Review the actual data handling before discussing confidential information.
+  A vendor privacy description is not an independent audit.
+- Explicitly confirm names, amounts, appointments, and negative statements.
+  Arrange additional human verification for important decisions.
 
-Bei Aktualisierungen Quelle, Abrufdatum, Geraet, Version und Sprachpaar
-angeben. Herstellerwerbung und eigene Beobachtungen getrennt halten.
+## Testing and Maintenance
+
+Use [TEST-PROTOCOL.md](TEST-PROTOCOL.md) to document comparable test phrases,
+costs, and language pairs. **No hands-on results** have been recorded yet.
+
+When updating this guide, include the source, access date, device, software
+version, and language pair. Keep vendor claims separate from observations.
