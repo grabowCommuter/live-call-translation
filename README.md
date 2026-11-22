@@ -7,6 +7,19 @@ separate Apps und Internetgespraeche per Link.
 Herstellerangaben, keine eigenen Testanrufe. Verfuegbarkeit, Preise,
 Sprachen und Menuebezeichnungen koennen sich aendern.
 
+## Vergleich auf einen Blick
+
+Alle Funktionsangaben in dieser Tabelle sind Angaben der jeweiligen Anbieter.
+Die Quellenkennungen fuehren zum [Quellenverzeichnis](QUELLEN.md).
+
+| App / Funktion | Geraete | Normale Telefonnummer anrufen | Internet- / Messenger-Anrufe | Verarbeitung | Wichtigste Grenze / Quelle |
+| --- | --- | --- | --- | --- | --- |
+| **Tookoo** | iPhone, Android; eingeladene Person auch im Browser | Nicht belegt | Eigener Gespraechsraum per Link / QR-Code, beidseitige Sprachausgabe | Cloud, Google Gemini | Internet noetig; keine App und kein Konto fuer eingeladene Person erforderlich. [T1, T2, T3] |
+| **Apple Live-Uebersetzung** | Apple-Intelligence-faehiges iPhone | Ja, ueber die Telefon-App; beidseitige Sprachausgabe | FaceTime: uebersetzte Untertitel | Lokal auf dem Geraet | Nicht jedes iPhone; FaceTime-Untertitel sind keine gesprochene Telefonuebersetzung. [A1, A2, A3] |
+| **Samsung Live-Uebersetzung** | Kompatibles Galaxy | Ja, ueber Samsung Telefon | Unterstuetzte Apps, unter anderem WhatsApp und Signal | Hier nicht separat geprueft | Modell, Sprachpaar und angebotene Messenger am Geraet pruefen. [S1] |
+| **Google Live Translate / Voice Translate** | Nur Pixel 10 und neuere Generationen, einschliesslich Fold | Ja, ueber die Telefonfunktion | Keine pauschale Messenger-Unterstuetzung zugesagt | Lokal auf dem Geraet | Nicht Pixel 9 oder aelter; Englisch muss eine Seite des Sprachpaars sein. [G1, G2] |
+| **AI Phone** | iPhone, Android | Ja, aus der App zu Mobilfunk / Festnetz | Zusaetzlicher Video-/Link-Modus beworben | Fuer Telefonie hier nicht vollstaendig geprueft | Eingehend laut Anbieter mit AI-Phone-Zweitnummer; Kosten separat pruefen. [P1, P2] |
+
 ## Zuerst die Anrufart klaeren
 
 - **Telefonnummer:** Eine Mobilfunk- oder Festnetznummer wird angerufen.
@@ -18,19 +31,6 @@ Sprachen und Menuebezeichnungen koennen sich aendern.
 Ein Konversationsmodus fuer zwei Personen am selben Handy oder reine
 Live-Untertitel sind kein Nachweis fuer beidseitig gesprochene
 Uebersetzung eines Telefonats.
-
-## Vergleich
-
-Alle Funktionsangaben in dieser Tabelle sind Angaben der jeweiligen Anbieter.
-Die Quellenkennungen fuehren zum [Quellenverzeichnis](QUELLEN.md).
-
-| Loesung | Anrufart | Voraussetzung / Einstieg | Wichtige Grenze |
-| --- | --- | --- | --- |
-| Apple Live-Uebersetzung | Telefon-App: gesprochene Uebersetzung in beide Richtungen | Apple-Intelligence-faehiges iPhone; im Anruf unter Mehr aktivieren | FaceTime bietet uebersetzte Untertitel, nicht dieselbe Sprachausgabe wie die Telefon-App. [A1, A2] |
-| Samsung Live-Uebersetzung | Samsung Telefon-App und unterstuetzte Drittanbieter-Anrufe | Kompatibles Galaxy; Einrichtung unter Galaxy AI | Messenger-Unterstuetzung separat am Geraet pruefen. [S1] |
-| Google Live Translate / Voice Translate | Telefonanrufe | Nur Pixel 10 und neuere Generationen, einschliesslich Fold | Nicht fuer Pixel 9 oder aelter; aktuell Englisch als eine Seite des Sprachpaars erforderlich. [G1] |
-| Tookoo | Internetgespraech zwischen zwei Geraeten per Link / QR-Code | iPhone-/Android-App; eingeladene Person kann im Browser teilnehmen | Keine Rufnummernwahl durch die ausgewerteten Quellen belegt. [T1, T3] |
-| AI Phone | Aus der App gestartete Anrufe zu Mobilfunk-/Festnetznummern | Nummer eingeben, Sprachen waehlen, Anruf starten | Eingehende Uebersetzung laut Anbieter mit eigener AI-Phone-Zweitnummer. [P1] |
 
 ## Details und Einrichtung
 
