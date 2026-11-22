@@ -78,9 +78,27 @@ Laender- und App-Verfuegbarkeit ebenfalls pruefen. [G2]
 
 ### Tookoo
 
-Raum erstellen, Einladungslink oder QR-Code teilen und beide Seiten verbinden.
-Push-to-Talk und freies Sprechen werden angeboten. Internet und Mikrofonzugriff
-sind erforderlich. [T1]
+**Tookoo ist ein eigenstaendiger Dienst fuer live uebersetzte
+Internetgespraeche zwischen zwei Personen.** Beide sprechen ihre eigene Sprache
+und hoeren die Uebersetzung. Angeboten werden Apps fuer iPhone und Android;
+die eingeladene Person kann ohne App-Installation und ohne Konto im Browser
+teilnehmen. [T1, T3]
+
+So laeuft ein Gespraech ab: [T1]
+
+1. Sprache waehlen und einen Tookoo-Raum erstellen.
+2. Einladungslink oder QR-Code an die andere Person weitergeben.
+3. Nach deren Beitritt sprechen; beide Seiten erhalten die Uebersetzung.
+
+**Push-to-Talk** verwendet eine Sprechtaste; **Talk-to-Talk** ermoeglicht
+freies Sprechen. Daneben gibt es einen **Listen-Modus** fuer Sprache in der
+Umgebung, also einen anderen Anwendungsfall als ein Gespraech zwischen zwei
+Geraeten. Internet und Mikrofonzugriff sind erforderlich. [T1, T3]
+
+**Einordnung:** Als Option fuer Familie, Bekannte oder andere Kontakte testen,
+denen sich ein Link schicken laesst. Eine Anwahl beliebiger Mobilfunk- oder
+Festnetznummern ist in den ausgewerteten Quellen nicht belegt. Tookoo ist
+deshalb hier nicht mit einer Erweiterung der normalen Telefon-App gleichgesetzt.
 
 Laut Datenschutzseite wird Audio fuer die Uebersetzung an Google Gemini
 uebertragen; Verarbeitung ausserhalb der EU ist moeglich. Der Betreiber
